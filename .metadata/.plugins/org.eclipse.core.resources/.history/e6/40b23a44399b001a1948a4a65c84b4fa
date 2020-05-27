@@ -1,0 +1,25 @@
+package autotest;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterTest;
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class NewTest {
+	WebDrvier driver;
+	String baseUrl, nodeURL;
+	
+  @Test
+  public void f() {
+  }
+  @BeforeTest
+  public void setUp() throws MalformedURLException {
+  }
+
+  @AfterTest
+  public void afterTest() {
+  }
+
+}

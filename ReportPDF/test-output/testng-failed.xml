@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Guru99TakeScreenshot.Guru99TakeScreenshot">
+        <methods>
+          <include name="testGuru99TakeScreenShot"/>
+        </methods>
+      </class> <!-- Guru99TakeScreenshot.Guru99TakeScreenshot -->
+      <class name="PDFEmail.TestGuru99PDEmail">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testPDFReportThree"/>
+          <include name="testPDFReportOne"/>
+          <include name="testPDFReporTwo"/>
+        </methods>
+      </class> <!-- PDFEmail.TestGuru99PDEmail -->
+      <class name="testNGReport.iReporterReport.TestGuru99ForReporter">
+        <methods>
+          <include name="testReporterTwo"/>
+        </methods>
+      </class> <!-- testNGReport.iReporterReport.TestGuru99ForReporter -->
+      <class name="testNGReport.realTimeReport.TestGuru99RealReport">
+        <methods>
+          <include name="testRealReportTwo"/>
+          <include name="testRealReportThree"/>
+        </methods>
+      </class> <!-- testNGReport.realTimeReport.TestGuru99RealReport -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,9 @@
+package autotest;
+
+import org.testng.annotations.Test;
+
+public class testGuru99TakeScreenShot {
+  @Test
+  public void f() {
+  }
+}

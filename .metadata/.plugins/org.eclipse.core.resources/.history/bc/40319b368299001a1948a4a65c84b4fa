@@ -1,0 +1,9 @@
+package com.autotest;
+
+import org.testng.annotations.Test;
+
+public class ListenerTest implements ITestListener {
+  @Test
+  public void f() {
+  }
+}

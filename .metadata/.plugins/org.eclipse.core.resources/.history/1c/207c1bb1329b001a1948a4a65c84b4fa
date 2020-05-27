@@ -1,0 +1,22 @@
+package autotest;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterTest;
+
+public class NewTest {
+	WebDrvier driver;
+	String baseUrl, nodeURL;
+	
+  @Test
+  public void f() {
+  }
+  @BeforeTest
+  public void beforeTest() {
+  }
+
+  @AfterTest
+  public void afterTest() {
+  }
+
+}
